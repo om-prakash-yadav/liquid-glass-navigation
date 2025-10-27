@@ -6,8 +6,16 @@
 
 A beautiful, highly customizable bottom navigation bar with liquid glass (glassmorphism) effect for Flutter. Create stunning iOS-style navigation bars with smooth animations, haptic feedback, badges, and much more!
 
+## 📸 Preview
+
 <p align="center">
-  <img src="https://raw.githubusercontent.com/om-prakash-yadav/liquid-glass-navigation/main/screenshots/example.gif" alt="Example" width="300"/>
+  <img src="https://raw.githubusercontent.com/om-prakash-yadav/liquid-glass-navigation/main/screenshots/animation.gif" alt="Animation Demo" width="250"/>
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/om-prakash-yadav/liquid-glass-navigation/main/screenshots/badges.png" alt="Badges Example" width="200"/>
+  <img src="https://raw.githubusercontent.com/om-prakash-yadav/liquid-glass-navigation/main/screenshots/gradient.png" alt="Gradient Example" width="200"/>
+  <img src="https://raw.githubusercontent.com/om-prakash-yadav/liquid-glass-navigation/main/screenshots/minimal.png" alt="Minimal Example" width="200"/>
 </p>
 
 ## Features ✨
@@ -26,22 +34,22 @@ A beautiful, highly customizable bottom navigation bar with liquid glass (glassm
 
 ## Installation 📦
 
-Add this to your package's pubspec.yaml file:
+Add this to your package's `pubspec.yaml` file:
 
-yaml
+```yaml
 dependencies:
   liquid_glass_nav: ^1.0.0
-
+```
 
 Then run:
 
-bash
+```bash
 flutter pub get
-
+```
 
 ## Quick Start 🚀
 
-dart
+```dart
 import 'package:flutter/material.dart';
 import 'package:liquid_glass_nav/liquid_glass_nav.dart';
 
@@ -112,13 +120,13 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
-
+```
 
 ## Advanced Usage 🎨
 
 ### With Animation Types
 
-dart
+```dart
 LiquidGlassBottomNav(
   items: _items,
   currentIndex: _currentIndex,
@@ -127,11 +135,11 @@ LiquidGlassBottomNav(
   animationDuration: Duration(milliseconds: 300),
   animationCurve: Curves.easeInOut,
 )
-
+```
 
 ### With Badges
 
-dart
+```dart
 final items = [
   LiquidGlassNavItem(
     icon: Icons.home,
@@ -151,11 +159,11 @@ final items = [
     showBadge: true, // Shows dot badge without text
   ),
 ];
-
+```
 
 ### With Haptic Feedback
 
-dart
+```dart
 LiquidGlassBottomNav(
   items: _items,
   currentIndex: _currentIndex,
@@ -163,11 +171,11 @@ LiquidGlassBottomNav(
   enableHapticFeedback: true,
   hapticFeedbackType: HapticFeedbackType.medium, // light, medium, heavy, selection
 )
-
+```
 
 ### With Custom Styling
 
-dart
+```dart
 LiquidGlassBottomNav(
   items: _items,
   currentIndex: _currentIndex,
@@ -185,11 +193,11 @@ LiquidGlassBottomNav(
     ],
   ),
 )
-
+```
 
 ### With Ripple Effect
 
-dart
+```dart
 LiquidGlassBottomNav(
   items: _items,
   currentIndex: _currentIndex,
@@ -197,7 +205,7 @@ LiquidGlassBottomNav(
   enableRipple: true,
   rippleColor: Colors.blue.withOpacity(0.3),
 )
-
+```
 
 ## Complete Example 📱
 

@@ -349,8 +349,9 @@ class _AnimationExampleState extends State<AnimationExample> {
                 begin: Alignment.topLeft,
                 end: Alignment.bottomRight,
                 colors: [
-                  Colors.teal.shade100,
-                  Colors.cyan.shade100,
+                  Colors.purple.shade300,
+                  Colors.blue.shade400,
+                  Colors.pink.shade300,
                 ],
               ),
             ),
@@ -416,15 +417,21 @@ class _AnimationExampleState extends State<AnimationExample> {
   Widget _buildAnimationChip(String label, NavAnimationType type) {
     final isSelected = _animationType == type;
     return FilterChip(
-      label: Text(label),
+      label: Text(
+        label,
+        style: TextStyle(
+          color: isSelected ? Colors.white : Colors.purple.shade700,
+          fontWeight: isSelected ? FontWeight.bold : FontWeight.normal,
+        ),
+      ),
       selected: isSelected,
       onSelected: (selected) {
         setState(() {
           _animationType = type;
         });
       },
-      backgroundColor: Colors.white,
-      selectedColor: Colors.teal.shade200,
+      backgroundColor: Colors.white.withOpacity(0.8),
+      selectedColor: Colors.purple.shade400,
     );
   }
 }
