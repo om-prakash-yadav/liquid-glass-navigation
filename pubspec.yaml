@@ -1,0 +1,29 @@
+name: liquid_glass_nav
+description: A beautiful, highly customizable bottom navigation bar with liquid glass (glassmorphism) effect. Features smooth animations, haptic feedback, badges, and accessibility support.
+version: 1.0.0
+homepage: https://github.com/om-prakash-yadav/liquid-glass-navigation
+repository: https://github.com/om-prakash-yadav/liquid-glass-navigation
+issue_tracker: https://github.com/om-prakash-yadav/liquid-glass-navigation/issues
+documentation: https://github.com/om-prakash-yadav/liquid-glass-navigation#readme
+
+topics:
+  - ui
+  - navigation
+  - bottom-navigation
+  - glassmorphism
+  - glass-effect
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: '>=3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
