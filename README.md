@@ -9,7 +9,9 @@ A beautiful, highly customizable bottom navigation bar with liquid glass (glassm
 ## 📸 Preview
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/om-prakash-yadav/liquid-glass-navigation/main/screenshots/animation.gif" alt="Animation Demo" width="250"/>
+  <video src="https://github.com/om-prakash-yadav/liquid-glass-navigation/raw/main/screenshots/animation.mp4" width="250" controls>
+    Your browser does not support the video tag.
+  </video>
 </p>
 
 <p align="center">
