@@ -1,3 +1,14 @@
+## 1.0.1
+
+### 📸 Documentation Update
+
+#### Improvements
+* 📸 Added screenshots and animated GIF showcasing the package
+* 📝 Fixed README code block formatting for better readability
+* 🎨 Enhanced animation example with vibrant gradient background
+* 🌐 Added web platform support to example app
+* 📖 Improved code examples with proper syntax highlighting
+
 ## 1.0.0
 
 ### 🎉 Initial Release
